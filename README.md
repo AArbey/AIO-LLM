@@ -26,8 +26,8 @@ sudo sh ./get-docker.sh
 
 Clone the repo :
 ```bash
-git clone https://github.com/AArbey/llm-server-aio.git
-cd llm-server-aio
+git clone https://github.com/AArbey/AIO-LLM.git
+cd AIO-LLM
 ```
 
 Copy the .env.template and edit it with your own info.
@@ -38,6 +38,6 @@ nano .env
 
 Run with docker compose
 ```bash
-docker compose up -d
+docker compose -f docker-compose-aio.yml up -d
 ```
 
